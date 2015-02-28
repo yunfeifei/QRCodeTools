@@ -1,0 +1,35 @@
+﻿<Window x:Class="QRCode生成解析工具.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="QRCode生成解析工具" Height="500" Width="527" 
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize" FontFamily="Microsoft YaHei">
+    <Grid>
+        <Image Height="265" Stretch="None" HorizontalAlignment="Left" Margin="17,189,0,0" Name="imgQRcode" VerticalAlignment="Top" Width="265" />
+        <Image Height="185" HorizontalAlignment="Left" Margin="307,268,0,0" Name="imgLogo" Stretch="Fill" VerticalAlignment="Top" Width="185" />
+
+        <Button Content="生成" Height="23" HorizontalAlignment="Left" Margin="347,46,0,0" Name="btnCreateQRCode" VerticalAlignment="Top" Width="75" Click="btnCreateQRCodeClick" />
+        <Button Content="保存" Height="23" HorizontalAlignment="Left" Margin="428,46,0,0" Name="btnSave" VerticalAlignment="Top" Width="75" Click="btnSaveClick" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="243,46,0,0" Name="cboVersion" VerticalAlignment="Top" Width="92" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="171,49,0,0" Name="textBlock1" Text="二维码版本:" VerticalAlignment="Top" Width="68" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="16,50,0,0" Name="textBlock2" Text="二维码尺寸:" VerticalAlignment="Top" Width="73" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="87,46,0,0" Name="txtSize" VerticalAlignment="Top" Width="74" Text="4" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="299,191,0,0" Name="textBlock3" Text="自定义Logo:" VerticalAlignment="Top" Width="68" />
+        <Button Content="添加..." Height="23" HorizontalAlignment="Left" Margin="373,189,0,0" Name="btnAddLogo" VerticalAlignment="Top" Width="75" Click="btnAddLogoClick" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="200" HorizontalAlignment="Left" Margin="299,261,0,0" Name="border1" VerticalAlignment="Top" Width="200" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="280" HorizontalAlignment="Left" Margin="10,181,0,0" Name="border2" VerticalAlignment="Top" Width="280" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="299,227,0,0" Name="textBlock4" Text="Logo尺寸:" VerticalAlignment="Top" Width="60" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="372,225,0,0" Name="txtLogoSize" VerticalAlignment="Top" Width="127" Text="30" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="15,15,0,0" Name="textBlock5" Text="二维码内容:" VerticalAlignment="Top" Width="73" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="87,12,0,0" Name="txtQRCodeContent" VerticalAlignment="Top" Width="416" />
+        <GroupBox Header="二维码解码" Height="96" HorizontalAlignment="Left" Margin="10,80,0,0" Name="groupBox1" VerticalAlignment="Top" Width="493">
+            <Canvas>
+                <Button Content="打开二维码..." Height="23" Name="btnOpenQRCode" Click="btnOpenQRCode_Click" Width="104" Canvas.Left="6" Canvas.Top="7" />
+                <Button Content="解码" Height="23" Name="btnDecodeQRCode" Width="75" Click="DecodeQRCodeClick" Canvas.Left="116" Canvas.Top="7" />
+                <TextBlock Canvas.Left="6" Canvas.Top="42" Height="23" Name="textBlock6" Text="二维码内容:" Width="67" FontFamily="Microsoft YaHei" />
+                <Button Canvas.Left="199" Canvas.Top="7" Content="复制到剪切板" Height="23" Name="btnClipboard" Width="98" Click="btnClipboard_Click" />
+                <TextBox IsReadOnly="True" BorderThickness="0" Canvas.Left="77" Canvas.Top="41" Height="23" Name="tbDecodeResult" Text="" Width="398" FontFamily="Microsoft YaHei" />
+            </Canvas>
+        </GroupBox>
+    </Grid>
+</Window>
