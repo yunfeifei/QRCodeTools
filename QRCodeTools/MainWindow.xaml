@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="QRCode生成解析工具" Height="500" Width="527" 
         WindowStartupLocation="CenterScreen" 
-        ResizeMode="NoResize" FontFamily="Microsoft YaHei">
+        ResizeMode="NoResize" FontFamily="Microsoft YaHei" Icon="QR.ico">
     <Grid>
         <Image Height="265" Stretch="None" HorizontalAlignment="Left" Margin="17,189,0,0" Name="imgQRcode" VerticalAlignment="Top" Width="265" />
         <Image Height="185" HorizontalAlignment="Left" Margin="307,268,0,0" Name="imgLogo" Stretch="Fill" VerticalAlignment="Top" Width="185" />

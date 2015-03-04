@@ -37,10 +37,11 @@ namespace QRCode生成解析工具
         }
         /// <summary>
         /// 初始化页面，为Combobox添加数据源和默认选中项
+        /// 由于30以上的版本难以识别，所以暂时不提供30以上的二维码选项。
         /// </summary>
         public void Init()
         {
-            for (int i = 1; i <= 40; i++)
+            for (int i = 1; i <= 30; i++)
             {
                 cboVersion.Items.Add(i);
             }
@@ -222,6 +223,7 @@ namespace QRCode生成解析工具
         {
             try
             {
+                tbDecodeResult.Text = "";
                 DecodeQRCode();
             }
             catch (Exception ex)
