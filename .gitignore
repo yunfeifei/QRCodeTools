@@ -41,8 +41,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-ThoughtWorks.QRCode/bin/Debug/ThoughtWorks.QRCode.dll
-*.pdb
-*.cache
-ThoughtWorks.QRCode/obj/Debug/ThoughtWorks.QRCode.csproj.FileListAbsolute.txt
-*.dll
+

@@ -1,0 +1,6 @@
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.dll
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.pdb
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.Properties.Resources.resources
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.dll
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.pdb
