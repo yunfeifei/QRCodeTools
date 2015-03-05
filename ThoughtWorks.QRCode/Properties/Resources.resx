@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="qrv1_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv1_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv1_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv1_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv1_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv10_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv10_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv10_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv10_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv10_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv10_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv10_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv10_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv11_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv11_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv11_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv11_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv11_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv11_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv11_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv11_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv12_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv12_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv12_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv12_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv12_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv12_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv12_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv12_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv13_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv13_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv13_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv13_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv13_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv13_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv13_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv13_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv14_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv14_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv14_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv14_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv14_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv14_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv14_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv14_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv15_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv15_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv15_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv15_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv15_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv15_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv15_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv15_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv16_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv16_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv16_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv16_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv16_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv16_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv16_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv16_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv17_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv17_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv17_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv17_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv17_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv17_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv17_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv17_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv18_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv18_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv18_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv18_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv18_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv18_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv18_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv18_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv19_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv19_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv19_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv19_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv19_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv19_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv19_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv19_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv2_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv2_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv2_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv2_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv20_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv20_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv20_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv20_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv20_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv20_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv20_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv20_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv21_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv21_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv21_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv21_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv21_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv21_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv21_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv21_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv22_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv22_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv22_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv22_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv22_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv22_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv22_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv22_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv23_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv23_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv23_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv23_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv23_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv23_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv23_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv23_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv24_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv24_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv24_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv24_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv24_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv24_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv24_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv24_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv25_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv25_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv25_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv25_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv25_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv25_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv25_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv25_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv26_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv26_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv26_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv26_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv26_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv26_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv26_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv26_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv27_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv27_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv27_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv27_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv27_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv27_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv27_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv27_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv28_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv28_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv28_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv28_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv28_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv28_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv28_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv28_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv29_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv29_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv29_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv29_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv29_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv29_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv29_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv29_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv3_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv3_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv3_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv3_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv3_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv30_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv30_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv30_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv30_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv30_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv30_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv30_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv30_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv31_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv31_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv31_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv31_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv31_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv31_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv31_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv31_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv32_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv32_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv32_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv32_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv32_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv32_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv32_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv32_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv33_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv33_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv33_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv33_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv33_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv33_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv33_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv33_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv34_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv34_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv34_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv34_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv34_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv34_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv34_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv34_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv35_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv35_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv35_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv35_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv35_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv35_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv35_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv35_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv36_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv36_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv36_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv36_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv36_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv36_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv36_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv36_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv37_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv37_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv37_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv37_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv37_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv37_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv37_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv37_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv38_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv38_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv38_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv38_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv38_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv38_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv38_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv38_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv39_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv39_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv39_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv39_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv39_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv39_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv39_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv39_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv4_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv4_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv4_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv4_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv4_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv4_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv4_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv4_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv40_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv40_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv40_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv40_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv40_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv40_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv40_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv40_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv5_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv5_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv5_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv5_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv5_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv5_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv5_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv5_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv6_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv6_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv6_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv6_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv6_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv6_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv6_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv6_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv7_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv7_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv7_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv7_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv7_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv7_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv7_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv7_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv8_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv8_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv8_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv8_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv8_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv8_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv8_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv8_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv9_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv9_0.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv9_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv9_1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv9_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv9_2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrv9_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrv9_3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr1.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr10.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr11.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr12.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr13.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr14.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr15.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr16.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr17.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr18.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr19.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr2.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr20.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr21.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr22.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr23.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr24.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr25.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr26.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr27.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr28.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr29.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr3.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr30.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr31.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr32.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr33.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr34.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr35.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr36.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr37.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr38.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr39.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr4.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr40.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr5.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr6.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr7.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr8.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qrvfr9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qrvfr9.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc10.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc13.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc15.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc16.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc17.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc18.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc20.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc22.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc24.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc26.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc28.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc30.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc32.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc34.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc36.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc40.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc42.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc44.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc46.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc48.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc50.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc52.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc54.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc56.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc58.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc60.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc62.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc64.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc66.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc68.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rsc7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rsc7.dat;System.Byte[], mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
