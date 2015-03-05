@@ -48,10 +48,6 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="ThoughtWorks.QRCode, Version=1.0.4489.42329, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Library\ThoughtWorks.QRCode.dll</HintPath>
-    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -99,8 +95,13 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Library\ThoughtWorks.QRCode.dll" />
     <Resource Include="QR.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ThoughtWorks.QRCode\ThoughtWorks.QRCode.csproj">
+      <Project>{38dc0b65-e351-405e-a459-f0508615cd51}</Project>
+      <Name>ThoughtWorks.QRCode</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
