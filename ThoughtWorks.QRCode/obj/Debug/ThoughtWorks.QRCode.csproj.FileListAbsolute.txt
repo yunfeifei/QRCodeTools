@@ -4,3 +4,4 @@ E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.Properti
 E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
 E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.dll
 E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.pdb
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.csprojResolveAssemblyReference.cache
